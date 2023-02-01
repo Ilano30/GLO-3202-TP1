@@ -8,6 +8,9 @@
     "lint": "vue-cli-service lint",
     "start": "node server .js"
   },
+  "engines": {
+    "node": "19.x"
+  },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.8.3",
