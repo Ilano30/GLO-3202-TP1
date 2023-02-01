@@ -9,7 +9,8 @@
     "start": "node server .js"
   },
   "engines": {
-    "node": "19.x"
+    "node": "19.x",
+    "npm": "9.x"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
