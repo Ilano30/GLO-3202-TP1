@@ -1100,6 +1100,11 @@
   resolved "https://registry.npmmirror.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
+"@quasar/extras@^1.0.0":
+  version "1.15.10"
+  resolved "https://registry.npmmirror.com/@quasar/extras/-/extras-1.15.10.tgz#515298377249765f9ca0027f6843f6a8e61efcd8"
+  integrity sha512-6w8e+wPNfcWhzW43tlnJPHOrcNwAgaaNJ3zBz8k+BMqpenA3fHZhFhxCYEVRZVqPFE2IK/8nRiPBp4t9xlW5tA==
+
 "@sideway/address@^4.1.3":
   version "4.1.4"
   resolved "https://registry.npmmirror.com/@sideway/address/-/address-4.1.4.tgz#03dccebc6ea47fdc226f7d3d1ad512955d4783f0"
@@ -2214,7 +2219,7 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chokidar@^3.5.3:
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -3882,7 +3887,7 @@ kind-of@^6.0.2:
   resolved "https://registry.npmmirror.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-klona@^2.0.5:
+klona@^2.0.4, klona@^2.0.5:
   version "2.0.6"
   resolved "https://registry.npmmirror.com/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
   integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
@@ -4791,6 +4796,13 @@ postcss-reduce-transforms@^5.1.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
+postcss-rtl@^3.5.3:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/postcss-rtl/-/postcss-rtl-2.0.0.tgz#402a0bfb58928a6c7fa77e97d0af398d76fbe1f2"
+  integrity sha512-vFu78CvaGY9BafWRHNgDm6OjUxzRCWWCrp+KtnyXdgwibLwb/j5ls8Z/ubvOsk9B/Q2NLwSPrXRARKMaa9RBmA==
+  dependencies:
+    rtlcss "4.0.0"
+
 postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.9:
   version "6.0.11"
   resolved "https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.0.11.tgz#2e41dc39b7ad74046e1615185185cd0b17d0c8dc"
@@ -4827,7 +4839,7 @@ postcss@^7.0.36:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.10, postcss@^8.2.6, postcss@^8.3.5, postcss@^8.4.19:
+postcss@^8.1.10, postcss@^8.2.6, postcss@^8.3.5, postcss@^8.4.19, postcss@^8.4.6:
   version "8.4.21"
   resolved "https://registry.npmmirror.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
@@ -4905,6 +4917,11 @@ qs@6.11.0:
   integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
   dependencies:
     side-channel "^1.0.4"
+
+quasar@^2.0.0:
+  version "2.11.5"
+  resolved "https://registry.npmmirror.com/quasar/-/quasar-2.11.5.tgz#c8a74c8f7bf24b16cdf51f1257df1a38b68fdfb8"
+  integrity sha512-rX4Rwp9wlCeB9A6RQUxEx/q84LMBVVm6WTECkoq8r/+NBgl9aHVexzZQBnRn2i61D0BJpdX5VcnMxAnJkTx/kA==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -5112,6 +5129,16 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
+rtlcss@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/rtlcss/-/rtlcss-4.0.0.tgz#ba73233b9c79fbf66eb867f2ae937713acbf2b40"
+  integrity sha512-j6oypPP+mgFwDXL1JkLCtm6U/DQntMUqlv5SOhpgHhdIE+PmBcjrtAHIpXfbIup47kD5Sgja9JDsDF1NNOsBwQ==
+  dependencies:
+    escalade "^3.1.1"
+    picocolors "^1.0.0"
+    postcss "^8.4.6"
+    strip-json-comments "^3.1.1"
+
 run-parallel@^1.1.9:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
@@ -5133,6 +5160,21 @@ safe-buffer@5.2.1, safe-buffer@>=5.1.0, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   version "2.1.2"
   resolved "https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sass-loader@^12.0.0:
+  version "12.6.0"
+  resolved "https://registry.npmmirror.com/sass-loader/-/sass-loader-12.6.0.tgz#5148362c8e2cdd4b950f3c63ac5d16dbfed37bcb"
+  integrity sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==
+  dependencies:
+    klona "^2.0.4"
+    neo-async "^2.6.2"
+
+sass@1.32.12:
+  version "1.32.12"
+  resolved "https://registry.npmmirror.com/sass/-/sass-1.32.12.tgz#a2a47ad0f1c168222db5206444a30c12457abb9f"
+  integrity sha512-zmXn03k3hN0KaiVTjohgkg98C3UowhL1/VSGdj4/VAAiMKGQOE80PFPxFP2Kyq0OUskPKcY5lImkhBKEHlypJA==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
 
 schema-utils@^2.6.5:
   version "2.7.1"
@@ -5772,6 +5814,13 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+vue-cli-plugin-quasar@~5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmmirror.com/vue-cli-plugin-quasar/-/vue-cli-plugin-quasar-5.0.1.tgz#b50d038411a718cc47fb27883a0d7021e5a74e47"
+  integrity sha512-yFPN0mRQJJH4a1AoLC6zDLxWzTjRQYKp8gO8wYQO43F+SK4qiMOeXrjsMvjUAa5QYxkbPa27rrwP59gTqTgKLQ==
+  dependencies:
+    webpack-merge "^5.7.3"
 
 vue-eslint-parser@^8.0.1:
   version "8.3.0"

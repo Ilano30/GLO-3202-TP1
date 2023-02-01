@@ -1,0 +1,53 @@
+{
+  "name": "postcss-rtl",
+  "version": "2.0.0",
+  "description": "PostCSS plugin for RTL-optimizations",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss plugin",
+    "rtl",
+    "ltr",
+    "right to left",
+    "left to right"
+  ],
+  "author": "Vladimir Kalinichev <wrumly@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/vkalinichev/postcss-rtl",
+  "bugs": {
+    "url": "https://github.com/vkalinichev/postcss-rtl/issues"
+  },
+  "homepage": "https://github.com/vkalinichev/postcss-rtl",
+  "main": "lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "dependencies": {
+    "rtlcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^29.3.1",
+    "postcss-import": "^12.0.1"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --ignore '**/__tests__/*'",
+    "lint": "eslint ./src",
+    "prepare": "npm run lint && npm run build && npm test",
+    "start": "jest --watch",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
